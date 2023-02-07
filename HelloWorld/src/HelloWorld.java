@@ -30,7 +30,7 @@ public class HelloWorld {
 			double c_x1 = c_x * Math.cos(alpha_rad) - c_y * Math.sin(alpha_rad);
 			double c_y1 = c_x * Math.sin(alpha_rad) + c_y * Math.cos(alpha_rad);
 			// Zeichnen des (um den Nullpunkt) gedrehten Dreiecks
-			StdDraw.setPenColor(StdDraw.RED);
+			StdDraw.setPenColor(StdDraw.BLUE);
 			StdDraw.line(a_x1, a_y1, b_x1, b_y1);
 			StdDraw.line(b_x1, b_y1, c_x1, c_y1);
 			StdDraw.line(c_x1, c_y1, a_x1, a_y1);
